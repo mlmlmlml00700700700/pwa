@@ -1,0 +1,22 @@
+sw-precache
+https://www.npmjs.com/package/sw-precache
+
+-리소스를 사전 캐시 가능한 모듈을 만들어주는 라이브러리
+
+$ npm install --global sw-precache
+
+sw-config.js  파일 직접 만들기
+
+module.exports = {
+  staticFileGlobs: [
+    'index.html',
+    'css/*.css',
+    'img/**.*',
+    'js/**/*'
+  ]
+};
+
+$ sw-precache --config sw-config.js
+
+=> service-worker.js 파일이 생김
+- html문서에서 스크립트 부분 sw.js대신에 이걸로 바궈줌

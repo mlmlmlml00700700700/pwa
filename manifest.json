@@ -1,0 +1,22 @@
+{
+  "short_name":"pwaTodo",
+  "name":"PWA Practice",
+  "background_color":"#F1C0E8",
+  "icons": [
+    {
+      "src": "img/192x.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/512x.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url":"./",
+  "display":"standalone",
+  "theme_color":"#F1C0E8",
+  "orientation":"portrait",
+  "description":"처음으로 만들어 본 PWA연습용 페이지입니다. TODO APP이에요"
+}
